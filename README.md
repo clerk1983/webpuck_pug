@@ -6,4 +6,4 @@
 
 ## Build
 
-`npx webpack --mode develop | product`
+`npx webpack --mode development | production | none`
