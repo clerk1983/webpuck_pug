@@ -1,0 +1,24 @@
+{
+  "name": "udemy_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clerk1983/test_repo.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/clerk1983/test_repo/issues"
+  },
+  "homepage": "https://github.com/clerk1983/test_repo#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
