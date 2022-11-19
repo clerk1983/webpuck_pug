@@ -58,6 +58,10 @@ module.exports = {
       template: "./src/templates/access.pug",
       filename: 'access.html'
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/templates/members/smith.pug",
+      filename: 'members/smith.html'
+    }),
     new CleanWebpackPlugin(),
   ],
 };
