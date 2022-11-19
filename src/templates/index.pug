@@ -1,10 +1,9 @@
-doctype html
-html(lang='en')
-  head
-    meta(charaset='UTF-8')
-    meta(name='viewport' content='width=device-width, initial-scale=1.0')
-    title Template HTML by PUG
-  body
-    h1 Hello Pug World!
-    img(src='../img/icon.png')
-    img(src='../img/thumbnail.jpg')
+extends _layout.pug
+
+block locals
+  - var title = 'Hello Pug'
+
+block content
+  h1 Hello Pug World!
+  img(src='../img/icon.png')
+  img(src='../img/thumbnail.jpg')
