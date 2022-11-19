@@ -14,14 +14,22 @@ module.exports = {
             {
                 test: /\.css/,
                 use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                    },
-                    {
-                        loader: 'css-loader',
-                    },
+                    { loader: MiniCssExtractPlugin.loader, },
+                    { loader: 'css-loader', },
                 ]
             },
+            {
+                test: /\.(jpg|png)/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            esModule: false,
+                            name: 'img/[name].[ext]'
+                        }
+                    }
+                ]
+            }
         ],
     },
     plugins: [
