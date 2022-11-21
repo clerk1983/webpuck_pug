@@ -1,5 +1,10 @@
 # Webpack + Pug sample
 
+## package scripts
+
+`npm start`
+`npm run build`
+
 ## Use Live Server
 
 `npx webpack-dev-server`
